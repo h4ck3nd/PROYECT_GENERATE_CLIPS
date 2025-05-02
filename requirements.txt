@@ -6,6 +6,7 @@ sentencepiece
 flask==2.3.3
 moviepy==1.0.3
 torch==2.1.2
+Pillow==9.5.0
 torchaudio==2.1.2
 numpy==1.26.4
 ffmpeg-python==0.2.0
