@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 model = WhisperModel("base", compute_type="int8")
 # Ruta absoluta donde Eclipse coloca el proyecto (cambiar si es necesario)
-JAVA_CLIPS_DIR = r"C:\Users\clipd\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\GenerateClipsWeb\clips"
+JAVA_CLIPS_DIR = r"C:\Users\[USER]\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\GenerateClipsWeb\clips" # Cambiar a tu usuario y crear la carpeta "clips" en "GenerateClipsWeb"
 ALLOWED_EXTENSIONS = {'mp4', 'mkv', 'avi', 'mov'}
 CLIPS_DIR = "clips"  # Directorio temporal para guardar clips en Flask
 
