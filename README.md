@@ -18,7 +18,7 @@ Este proyecto permite subir un video, transcribirlo con `faster-whisper`, genera
 2. Crea y activa un entorno virtual:
 
 ```bash
-python -m venv venv
+python3.11 -m venv .venv
 source venv/bin/activate   # Linux/macOS
 venv\Scripts\activate      # Windows
 ```
