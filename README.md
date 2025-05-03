@@ -16,6 +16,7 @@ Este proyecto permite subir un video, transcribirlo con `faster-whisper`, genera
 1. Clona el proyecto o copia los archivos.
 
   - Hay que reemplazar dentro del script de ``python`` las partes que pone [USER] por tu usuario de sistema y crear en la carpeta de ``ClonePageWeb`` (Pero de la Temporal) la carpeta ``clips``.
+  - Todo esto se cambia en la parte de la variable llamada como ``JAVA_CLIPS_DIR`` en esa ruta especificada realizar dichos cambios y crear dicha carpeta ``clips``.
   
 2. Crea y activa un entorno virtual:
 
